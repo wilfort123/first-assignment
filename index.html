@@ -1,0 +1,115 @@
+\<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <a href="./index.html">Home</a>
+    <a href="../about.html">personal information</a>
+ <h1>Application Form</h1> 
+ <p>fill in your details</p>  
+</body>
+
+<form action="/signup" method="post">
+  <p>
+    <label>Title</label><br>
+    <label>
+      <input type="radio" name="title" value="mr">
+      Mr
+    </label>
+    <label>
+      <input type="radio" name="title" value="mrs">
+      Mrs
+    </label>
+    <label>
+      <input type="radio" name="title" value="miss">
+      Miss
+    </label>
+<p>
+    <label>First name:</label><br>
+    <input type="text" name="first_name" placeholder="First name">
+    <br>
+    <br>
+    <label>Last name:</label><br>
+    <input type="text" name="last_name" placeholder="Last name ">
+    <br>
+    <br>
+    <label>Email:</label><br>
+    <input type="email" name="email" placeholder="enter your email">
+  <br>
+  <br>
+  <label>Date of Birth:</label><br>
+  <input type="date">
+  <br>
+  <br>
+    <label>Phone number:</label><br>
+    <input type="tel" name="phone" placeholder="+234">
+  <br>
+  <br>
+  <label>Educational Level:</label><br>
+<select>
+  <option>Employed</option>
+  <option>Unemployed</option>
+</select>
+  <br>
+  <br>
+    <label>Password:</label><br>
+    <input type="password" name="password" placeholder="*******">
+  <br>
+  <br>
+  <label>Choose school:</label><br>
+  <select>
+    <option>School of Product</option>
+    <option>School of Engineering</option>
+    <option>School of Data</option>
+  </select>
+  <br>
+  <br>
+  <label>Choose Course:</label><br>
+  <select>
+    <option>Data Analysis</option>
+    <option>Data science</option>
+    <option>Data Engineering</option>
+  </select>
+  <br>
+  <br>
+    <label>Country</label><br>
+    <select>
+      <option>China</option>
+      <option>India</option>
+      <option>United States</option>
+      <option>Indonesia</option>
+      <option>Brazil</option>
+    </select>
+    <br>
+    <br>
+    <label>How did you hear about us?</label><br>
+    <label>
+    <input type="radio" name="How did you hear about us?" value="Website">
+    Website
+    </label>
+    <label>
+    <input type="radio" name="How did you hear about us?" value="Friend">
+    Friend
+  </label>
+  <label>
+    <input type="radio" name="How did you hear about us?" value="Others">
+    Others
+</label>
+<br>
+<br>
+<label>Scholarship/Discount Code (optional)</label><br>
+<input type="text" placeholder="Scholarship or student ID or discount code">
+<br>
+<br>
+      <p>
+      <input type="checkbox" value="terms">
+      I agree to the <a href="/terms">terms and conditions</a>
+    </label>
+  <br>
+  <p>
+    <button>Submit</button>
+  </p>
+</form>
